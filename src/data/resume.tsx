@@ -11,7 +11,7 @@ export const DATA = {
     "I am committed to staying ahead in the dynamic tech landscape, continuously refining my skills and contributing to innovative solutions.",
   summary:
     "A dedicated frontend developer with over a year of experience crafting intuitive, responsive web applications. My expertise spans HTML, CSS, JavaScript, and React.js, where I transform creative ideas into impactful user experiences. I thrive on turning challenges into opportunities, building seamless interfaces that connect design and functionality.[More](#)",
-  avatarUrl: "/me.png",
+  avatarUrl: "/",
   skills: [
     "HTML",
     "Css",
@@ -149,7 +149,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "cShare.mp4",
     },
     {
       title: "Tic Tac Toe Game",
@@ -177,7 +177,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "ticTac.mp4",
     },
     {
       title: "Todo App",
@@ -243,39 +243,39 @@ export const DATA = {
       links: [],
     },
    
-    {
-      title: "HackDavis",
-      dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
-      description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
-      ],
-    },
+      // {
+      //   title: "HackDavis",
+      //   dates: "January 20th - 21st, 2018",
+      //   location: "Davis, California",
+      //   description:
+      //     "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
+      //   image:
+      //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
+      //   win: "Best Data Hack",
+      //   mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
+      //   links: [
+      //     {
+      //       title: "Devpost",
+      //       icon: <Icons.globe className="h-4 w-4" />,
+      //       href: "https://devpost.com/software/my6footprint",
+      //     },
+      //     {
+      //       title: "ML",
+      //       icon: <Icons.github className="h-4 w-4" />,
+      //       href: "https://github.com/Wallet6/my6footprint-machine-learning",
+      //     },
+      //     {
+      //       title: "iOS",
+      //       icon: <Icons.github className="h-4 w-4" />,
+      //       href: "https://github.com/Wallet6/CarbonWallet",
+      //     },
+      //     {
+      //       title: "Server",
+      //       icon: <Icons.github className="h-4 w-4" />,
+      //       href: "https://github.com/Wallet6/wallet6-server",
+      //     },
+      //   ],
+      // },
  
    
     
