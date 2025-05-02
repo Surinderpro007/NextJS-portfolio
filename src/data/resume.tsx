@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I am committed to staying ahead in the dynamic tech landscape, continuously refining my skills and contributing to innovative solutions.",
   summary:
-    "A dedicated frontend developer with over a year of experience crafting intuitive, responsive web applications. My expertise spans HTML, CSS, JavaScript, and React.js, where I transform creative ideas into impactful user experiences. I thrive on turning challenges into opportunities, building seamless interfaces that connect design and functionality.[More](#)",
+    "A dedicated frontend developer with over a year of experience crafting intuitive, responsive web applications. My expertise spans HTML, CSS, JavaScript, and React.js, where I transform creative ideas into impactful user experiences. I thrive on turning challenges into opportunities, building seamless interfaces that connect design and functionality.",
   avatarUrl: "/",
   skills: [
     "HTML",
@@ -70,7 +70,7 @@ export const DATA = {
       start: "Dec 2023",
       end: "Present",
       description:
-        "I have 1 year of experience as a frontend developer at WebChefz Info Tech, where I refined my skills in HTML, CSS, JavaScript, and frameworks like React.js. I contributed to creating user-friendly interfaces and turning designs into responsive web pages.",
+        "I have 1 year and 5 months of experience as a frontend developer at WebChefz Info Tech, where I refined my skills in HTML, CSS, JavaScript, and frameworks like React.js. I contributed to creating user-friendly interfaces and turning designs into responsive web pages.",
     },
     {
       company: "Techohouze Web Solutions",
@@ -106,27 +106,51 @@ export const DATA = {
       degree: "Bachelor of Computer Applications (BCA)",
       logoUrl: "/cu.svg",
       start: "",
-      end: "Pursuing",
+      end: "Pursuing (Expected 2027)",
     },
-    {
-      school: "Govt. Sen. Sec. School Dholbaha",
-      href: "#",
-      degree: "Class 12th (Senior Secondary)",
-      logoUrl: "/school.svg",
-      start: "Completed",
-      end: "2018",
-    },
-    {
-      school: "Govt. High School Manhota ",
-      href: "#",
-      degree: "Class 10th (High School)",
-      logoUrl: "/school.svg",
-      start: "Completed",
-      end: "2016",
-    },
+    // {
+    //   school: "Govt. Sen. Sec. School Dholbaha",
+    //   href: "#",
+    //   degree: "Class 12th (Senior Secondary)",
+    //   logoUrl: "/school.svg",
+    //   start: "Completed",
+    //   end: "2018",
+    // },
+    // {
+    //   school: "Govt. High School Manhota ",
+    //   href: "#",
+    //   degree: "Class 10th (High School)",
+    //   logoUrl: "/school.svg",
+    //   start: "Completed",
+    //   end: "2016",
+    // },
     
   ],
   projects: [
+    {
+      title: "Enhance Image Application",
+      href: "#",
+      dates: "",
+      active: true,
+      description:
+        "The Enhance Image Application is a modern web-based tool developed using React.js, designed to improve and process images through an intuitive user interface. It integrates with backend services using Axios to fetch and enhance image data efficiently.",
+      technologies: [
+        "React.js",
+        "Axios",
+        "TailwindCSS",
+        "Pickwish API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/imageCompare.png",
+      video:
+        "",
+    },
     {
       title: "Code Share App",
       href: "#",
@@ -151,6 +175,7 @@ export const DATA = {
       video:
         "cShare.mp4",
     },
+    
     {
       title: "Tic Tac Toe Game",
       href: "#",
@@ -167,7 +192,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://tic-tac-toe-bice-eight-39.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -284,4 +309,11 @@ export const DATA = {
    
 
   ],
+  Contact:[
+    {
+      title: "Contact",
+    }
+
+  ]
+
 } as const;
